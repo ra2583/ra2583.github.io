@@ -22,6 +22,13 @@
       margin-left: 80px;
       line-height: 120%;
     }
+    h4{
+      margin-left: 80px;
+      margin-top: 10px;
+    }
+    iframe{
+      margin-left: 80px;
+    }
     .font-A {
       font-family: 'M PLUS Rounded 1c', sans-serif;
   }
@@ -40,7 +47,16 @@
           <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">主頁</button>
           <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">關於Vocaloid</button>
           <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">衍生角色</button>
-          <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false">推薦歌曲</button>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">推薦曲目</a>
+            <ul class="dropdown-menu">
+              <button class="nav-link" id="nav-miku-tab" data-bs-toggle="tab" data-bs-target="#nav-miku" type="button" role="tab" aria-controls="nav-miku" aria-selected="false">初音未來</button>
+              <button class="nav-link" id="nav-rin-tab" data-bs-toggle="tab" data-bs-target="#nav-rin" type="button" role="tab" aria-controls="nav-rin" aria-selected="false">鏡音雙子</button>
+              <button class="nav-link" id="nav-luka-tab" data-bs-toggle="tab" data-bs-target="#nav-luka" type="button" role="tab" aria-controls="nav-luka" aria-selected="false">巡音流歌</button>
+            </ul>
+          </li>
+          
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">推薦作曲家</a>
             <ul class="dropdown-menu">
@@ -82,7 +98,7 @@
                 在設定上是一名16歲的女性歌手<br>
                 能夠駕馭各種音樂風格。<br>
                 她最有名的歌曲是改編自芬蘭民歌的《<span class="font-A">Ievan Polkka</span>》<br>
-                其形象在日本和世界各地都很受歡迎，並在電視動畫、電玩等處都能看到她的身影。</td>
+                其形象在日本和世界各地都很受歡迎，在電視動畫、電玩等處都能看到她的身影。</td>
             </tr>
             <tr>
               <td><img src="Kagamine.png" alt="Kagamine" width="163" height="307" /><br><br><figcaption><pre>　　　　 鏡音雙子</pre></figcaption><br>
@@ -105,18 +121,38 @@
                 其日文全名為巡音ルカ<br>
                 「巡」的意思是「遍布周圍的聲音（"巡り"伝わる音）」<br>
                 「ル」漢字為「流」，表示歌曲的流動；「カ」漢字為「歌」意思為「歌曲的傳達」<br>
-                「ダブルラリアット」是她目前再生數最高的歌曲<br>
+                「ダブルラリアット」是她目前在niconico上再生數最高的歌曲<br>
                 另外與初音未來合唱，用露骨的歌詞講述同性之愛的「<span class="font-A">magnet</span>」也請務必也要聽聽看!
               </td>
             </tr>
           </table>
         </div>
-        <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">
-         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wv2P0PLz9fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="tab-pane fade" id="nav-miku" role="tabpanel" aria-labelledby="nav-miku-tab" tabindex="0">
+          <h4><span class="font-A">METEOR ／ DIVELA feat.初音未來</span></h4>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2kZVEUGLgy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h4><span class="font-A">[Official] 初音ミクの激唱(2018Remake) / cosMo＠暴走P</span></h4>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MFEaIgMkR_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h4><span class="font-A">【初音ミク】スターナイトスノウ【オリジナルMV】</span></h4>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZuT3xYLW7vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="tab-pane fade" id="nav-rin" role="tabpanel" aria-labelledby="nav-rin-tab" tabindex="0">
+          <h4><span class="font-A">メランコリック@Junky feat.鏡音リン</span></h4>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/86_kvUqhY-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h4><span class="font-A">エゴロック(long ver.) / すりぃ feat.鏡音レン</span></h4>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zi7-jk4LdX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h4><span class="font-A">First Note Rin&Len remix / blues [鏡音リン・レン 15th Anniversary]</span></h4>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GMQ87OVLBDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="tab-pane fade" id="nav-luka" role="tabpanel" aria-labelledby="nav-luka-tab" tabindex="0">
+          <h4><span class="font-A">【official】星屑ユートピア／otetsu feat.巡音ルカ</span></h4>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/syk1f6Dj82E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h4><span class="font-A">【巡音ルカ】" どりーみんチュチュ / Dreamin Chuchu " by emon</span></h4>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WdHRGH1Qv70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h4><span class="font-A">幽世サワーズアラモード / Twinfield feat. 巡音ルカ</span></h4>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/paSSjuI2iBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         <div class="tab-pane fade" id="nav-deco" role="tabpanel" aria-labelledby="nav-deco-tab" tabindex="0">deco*27</div>
       </div>
-      </tr>
-    </table>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   
   </body>
