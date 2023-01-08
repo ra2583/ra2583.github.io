@@ -11,9 +11,7 @@
       vertical-align: top;
       padding: 10px;
     }
-    img {
-      width: 100%;
-    }
+    
     body{
       font-family: 'M PLUS Rounded 1c', sans-serif;
       font-family: 'Noto Sans TC', sans-serif;
@@ -46,10 +44,10 @@
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
           <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">主頁</button>
           <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">關於Vocaloid</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">衍生角色</button>
+          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">角色</button>
           
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">推薦曲目</a>
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">推薦歌曲</a>
             <ul class="dropdown-menu">
               <button class="nav-link" id="nav-miku-tab" data-bs-toggle="tab" data-bs-target="#nav-miku" type="button" role="tab" aria-controls="nav-miku" aria-selected="false">初音未來</button>
               <button class="nav-link" id="nav-rin-tab" data-bs-toggle="tab" data-bs-target="#nav-rin" type="button" role="tab" aria-controls="nav-rin" aria-selected="false">鏡音雙子</button>
@@ -61,8 +59,7 @@
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">推薦作曲家</a>
             <ul class="dropdown-menu">
               <button class="nav-link" id="nav-deco-tab" data-bs-toggle="tab" data-bs-target="#nav-deco" type="button" role="tab" aria-controls="nav-deco" aria-selected="false">Deco*27</button>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <button class="nav-link" id="nav-pino-tab" data-bs-toggle="tab" data-bs-target="#nav-pino" type="button" role="tab" aria-controls="nav-pino" aria-selected="false">ピノキオピ</button>
             </ul>
           </li>
         </div>
@@ -76,14 +73,19 @@
       一步步踏入這個美妙的音樂世界吧！</h3></p>
         </div>
         <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0"><br><h3><p>
-          <span class="font-A">Vocaloid</span> 簡稱 <span class="font-A">V</span>家<br>
-      是由 <span class="font-A">Yamaha</span> 所開發的電子音樂製作語音合成軟體。<br>
+          <table>
+            <tr>
+              <td><img width="300" src="Vocaloid_logo.svg.png" alt="vocaloid"/><br><br><img src="vocaloid.png" alt="vocaloid"/></td>            
+          <td><h3 style="position:relative;top: 8px;"><span class="font-A">Vocaloid</span> 簡稱 <span class="font-A">V</span>家<br>
+      是由 <span class="font-A">Yamaha</span> 所開發的電子音樂製作語音合成軟體<br>
       使用者可以輸入歌詞和音調<br>
-      <span class="font-A">Vocaloid</span> 會根據輸入的資料合成出符合要求的人聲。<br>
+      <span class="font-A">Vocaloid</span> 會根據輸入的資料合成出符合要求的人聲<br>
       也可以透過修改各種參數<br>
-      獲得自己理想的聲音。<br>
+      獲得自己理想的聲音<br>
       其中較著名的產品包括 <span class="font-A">Vocaloid2</span> 的初音ミク、鏡音リン、巡音ルカ等<br>
-      另外，由這些不同的聲音所分別衍生出的人物形象也非常廣為人知。</h3></p>
+      另外，由這些不同的聲音所分別衍生出的人物形象也非常廣為人知</h3></td>
+    </tr>
+    </table>
         </div>
         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
           <table>
@@ -92,13 +94,13 @@
               <td><br><br>
                 初音未來是其中最有名的角色<br>
                 原型是<span class="font-A">Vocaloid 2</span>中的聲音引擎「初音ミク」<br>
-                「初音」是指「第一次的聲音」；<br>
-                「ミク」漢字寫作「未來」，指「<span class="font-A">VOCALOID</span>所象徵的將來音樂之可能性」。<br>
+                「初音」是指「第一次的聲音」<br>
+                「ミク」漢字寫作「未來」，指「<span class="font-A">VOCALOID</span>所象徵的將來音樂之可能性」<br>
                 角色形象由<span class="font-A">Crypton Future Media</span>設計製作<br>
                 在設定上是一名16歲的女性歌手<br>
-                能夠駕馭各種音樂風格。<br>
+                能夠駕馭各種音樂風格<br>
                 她最有名的歌曲是改編自芬蘭民歌的《<span class="font-A">Ievan Polkka</span>》<br>
-                其形象在日本和世界各地都很受歡迎，在電視動畫、電玩等處都能看到她的身影。</td>
+                其形象在日本和世界各地都很受歡迎，在電視動畫、電玩等處都能看到她的身影</td>
             </tr>
             <tr>
               <td><img src="Kagamine.png" alt="Kagamine" width="163" height="307" /><br><br><figcaption><pre>　　　　 鏡音雙子</pre></figcaption><br>
@@ -109,7 +111,7 @@
                   在官方設定中，並沒有明講兩人的關係<br>
                   一般較大眾的設定有兄妹、姐弟和「 自己在鏡中反映出來的異性」等<br>
                   由「惡之系列」、「囚人系列」以及「雪系列」所組成的「鏡音三大悲劇」為他們較著名的作品<br>
-                  其中所包含的故事也非常耐人尋味。
+                  其中所包含的故事也非常耐人尋味
                 </td>
             </tr>
             <tr>
@@ -122,7 +124,7 @@
                 「巡」的意思是「遍布周圍的聲音（"巡り"伝わる音）」<br>
                 「ル」漢字為「流」，表示歌曲的流動；「カ」漢字為「歌」意思為「歌曲的傳達」<br>
                 「ダブルラリアット」是她目前在niconico上再生數最高的歌曲<br>
-                另外與初音未來合唱，用露骨的歌詞講述同性之愛的「<span class="font-A">magnet</span>」也請務必也要聽聽看!
+                另外與初音未來合唱，透過有點露骨的歌詞講述同性之愛的「<span class="font-A">magnet</span>」也請務必也要聽聽看!
               </td>
             </tr>
           </table>
@@ -151,7 +153,60 @@
           <h4><span class="font-A">幽世サワーズアラモード / Twinfield feat. 巡音ルカ</span></h4>
           <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/paSSjuI2iBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <div class="tab-pane fade" id="nav-deco" role="tabpanel" aria-labelledby="nav-deco-tab" tabindex="0">deco*27</div>
+        <div class="tab-pane fade" id="nav-deco" role="tabpanel" aria-labelledby="nav-deco-tab" tabindex="0">
+          <table>
+            <tr>
+              <td><a href="https://www.youtube.com/@DECO27"><img style="position:relative;margin-left:5px" src="deco.jpg" alt="deco*27" width="250" height="250" />
+                <p style="position:relative; left:20px">Deco*27</p></a></td>
+              <td><br>
+                <span class="font-A">Deco*27</span>的音樂常會融合搖滾樂和電子音樂的元素<br>
+                值得一提的是，在他的每張專輯中<br>
+                都可以看見其不同的音樂風格<br>
+                在那當中不變的是對演唱者聲音的調教及表達各種深刻愛情的歌詞<br>
+                <span class="font-A">Deco*27</span>最常為初音未來作詞曲<br>
+                偶爾也會為<span class="font-A">Gumi</span>或其他真實歌手創作<br>
+                每首歌都令人忍不注意一聽再聽<br>
+                以下是兩首推薦的歌曲</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td width="700"><h5 style="position:relative; left:155px"><span class="font-A">DECO*27 - ヴァンパイア feat. 初音ミク</span></h5>
+                <iframe width="504" height="283.5" src="https://www.youtube-nocookie.com/embed/e1xCOsgWG0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </td>
+              <td><h5 style="position:relative; left:175px"><span class="font-A">DECO*27 - おじゃま虫 feat.初音ミク</span></h5>
+                <iframe width="504" height="283.5" src="https://www.youtube-nocookie.com/embed/wv2P0PLz9fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tab-pane fade" id="nav-pino" role="tabpanel" aria-labelledby="nav-pino-tab" tabindex="0">
+          <table>
+            <tr>
+              <td><a href="https://www.youtube.com/@pinocchiop/featured"><img style="position:relative;margin-left:5px" src="pino.jpg" alt="ピノキオピ" width="250" height="250" />
+                <p style="position:relative; left:10px">ピノキオピ</p></a></td>
+              <td><br>
+                ピノキオピー的曲子大多是電音及中毒向的風格<br>
+                他的很多首歌曲都十分朗朗上口<br>
+                去年一首帶有諷刺意味的新作《神っぽいな》更是在youtube上更是突破了5000萬觀看次數<br>
+                除此之外，ピノキオピー也是一名作詞家和插畫家<br>
+                很多他所上傳的歌曲<br>
+                從歌曲、歌詞、插畫到動畫都是由他自己一人所完成<br>
+                非常厲害<br>
+                這裡推薦兩首他所創作的歌曲 </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td width="700"><h5 style="position:relative; left:85px ;top: 0px;"><span class="font-A">ピノキオピー - 魔法少女とチョコレゐト feat. 初音ミク </span></h5>
+                <iframe width="504" height="283.5" src="https://www.youtube-nocookie.com/embed/T2kS1gAbxhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </td>
+              <td><h5 style="position:relative; left:85px"><span class="font-A">ピノキオピー - 愛されなくても君がいる feat. 初音ミク</span></h5>
+                <iframe width="504" height="283.5" src="https://www.youtube-nocookie.com/embed/ygY2qObZv24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </td>
+            </tr>
+          </table>
+        </div>
       </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   
